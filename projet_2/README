@@ -9,4 +9,8 @@ Pour ce faire il a fallut :
 
 Source : https://raspberry-pi.fr/installer-serveur-web-raspberry-lamp/
 
-2 - J'ai créé un CV (rapidement) en html que j'ai sauvegardé à la localisation "/var/www/html"
+2 - J'ai créé un CV (rapidement) appelez "mon_cv.html" en html que j'ai sauvegardé à la localisation "/var/www/html"
+    Ne connaissant pas l'HTML j'ai suivis le cours : https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3
+    que jusqu'au chapitre 5 (Créez des liens) de la partie 1 (Découvrez les bases de HTML5).
+   
+3 - J'ai ensuite modifier le fichier index.html qui est le fichier qu'on trouve quand on ouvre une page internet à l'adresse ip de la carte de sorte à pouvoir cliquer sur celui-ci pour ouvrir le CV.
