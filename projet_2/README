@@ -6,3 +6,7 @@ Pour ce faire il a fallut :
     _ sudo apt install apache2
     _ sudo chown -R pi:www-data /var/www/html/
     _ sudo chmod -R 770 /var/www/html/
+
+Source : https://raspberry-pi.fr/installer-serveur-web-raspberry-lamp/
+
+2 - J'ai créé un CV (rapidement) en html que j'ai sauvegardé à la localisation "/var/www/html"
