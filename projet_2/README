@@ -1,1 +1,8 @@
-# Projet2
+Ce projet permet de lire mon CV (en html) dans ma carte Raspberry Pi.
+
+Pour ce faire il a fallut :
+
+1 - Installer un serveur local sur la RaspBerry Pi :
+    _ sudo apt install apache2
+    _ sudo chown -R pi:www-data /var/www/html/
+    _ sudo chmod -R 770 /var/www/html/
