@@ -1,1 +1,9 @@
-# projet_1
+Ce projet à pour but la réalisation d'une calculatrice en commande bash.
+
+Pour réaliser ce projet je me suis essentiellement inspiré du cours "Reprenez le contrôle à l'aide de Linux !" sur openclassroom.
+
+Ce projet peut être améliorer, par exemple prendre en considération le résultat précédent pour d'autres calculs ou bien, bien lire la saisie du clavier pour la relance du
+programme ([Y/n]), on peut aussi améliorer ce script de manière à pouvoir le lancer de la manière suivant : "bash cal.sh 4 / 8" ou bien "bash cal.sh 3*7", rentrer d'autres
+opérations "% ; ^", etc.
+
+Dans mon cas j'ai réalisé une fonction simple avec un affichage "ok".
