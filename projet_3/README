@@ -1,0 +1,12 @@
+Ce projet à pour but une itialisation à NodeRed. Le but est de créer un graphique qui affiche la température du CPU de la RaspberryPi.
+
+Pour se faire j'ai utilisé de nombreuses sources en commençant par le pdf "Server-NodeRED.pdf" en lien dans le dossier, du GitHub 
+"github.com/bartbutenaers/node-red-contrib-vcgencmd" et d'autres sites pour récupérer les informations qui m'intéressaient.
+
+J'ai donc utilisé un node "inject" qui envoie un message random à la RaspberryPi de sorte que le node "vcgencmd" puisse récupérer les informations qui lui faut pour récupérer la 
+température du CPU de la RaspberryPi avec la commande "vcgencmd measure_temp". La sortie de ce Node va dans le node "chart" permettant ainsi de créer un graphique.
+
+J'ai réglé l'axe des ordonnées de sortent à ce que ça affiche de 20°C (température ambiante, on ne verrai qu'une telle température à l'allumage de la RaspberryPi) jusqu'à 90°C 
+sachant que la RaspberryPi s'éteint automatiquement par sécurité si la température atteint 85°C ou plus.
+
+J'ai donc installer les packages "dashboards" et "vcgencmd" pour réaliser ce projet.
