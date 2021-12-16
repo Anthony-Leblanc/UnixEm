@@ -15,6 +15,16 @@ Sur le même dashboard (de la RP2), ajouter un “textBox” qui permet d’envo
 My ressources : 
   _ https://raspberrytips.fr/tutoriel-sense-hat/
   _ https://pythonhosted.org/sense-hat/api/
+  
+  
+Étalonnage du sense_hat :
+  Installez les dépendances :
+    sudo apt install octave -y
+  Copiez les fichiers dans un dossier temporaire :
+    cp /usr/share/librtimulib-utils/RTEllipsoidFit ./ -a
+  Exécutez l’outil d’étalonnage :
+    cd RTEllipsoidFit
+    RTIMULibCal
 
 
 Pour aller plus loin (facultatif):
