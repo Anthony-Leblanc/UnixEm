@@ -1,0 +1,33 @@
+Projet 4: Mise en place d’une interface entre la Raspberry Pi et le shield Sense HAT 
+
+Connecter le shield Sense HAT à la carte Raspberry PI pour en faire un objet connecté.
+
+Information importante:
+Le projet doit s’effectuer en binôme. 
+
+
+Les étapes:
+La RP1 doit récupérer les données des capteurs du sense HAT et les envoyer par MQTT vers la RP2, cette opération de récupération de données peut être effectuée par un script bash, un langage de programmation ou bien même par node-red.
+La RP2 doit recevoir des données par MQTT et les restituer dans un dashboard contenant: La température, l’humidité, l’accélération sur les trois axes, la pression, le calcul de la qualité d'air. 
+Sur le même dashboard (de la RP2), ajouter un “textBox” qui permet d’envoyer un texte à afficher sur la matrice à leds de la RP1 via MQTT.
+
+
+My ressources : 
+  _ https://raspberrytips.fr/tutoriel-sense-hat/
+  _ https://pythonhosted.org/sense-hat/api/
+
+
+Pour aller plus loin (facultatif):
+Ajouter une image matricielle sur le Dashboard du RP2 (node-red) à envoyer a la RP1 pour l’afficher sur la matrice à Leds 
+
+Livrable:
+Lien Github contenant le projet 4 et une documentation très brève sous forme de Readme en markdown.
+Comment faire un doc en markdown ? → https://www.makeareadme.com/
+
+Ressources:
+
+https://projetsdiy.fr/mosquitto-broker-mqtt-raspberry-pi/
+https://www.youtube.com/watch?v=LXA-Ge3-ewo
+https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat
+https://github.com/mpolinowski/PiSenseHat-Node-RED
+
