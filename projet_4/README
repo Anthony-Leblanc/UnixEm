@@ -11,6 +11,7 @@ La RP1 doit récupérer les données des capteurs du sense HAT et les envoyer pa
 La RP2 doit recevoir des données par MQTT et les restituer dans un dashboard contenant: La température, l’humidité, l’accélération sur les trois axes, la pression, le calcul de la qualité d'air. 
 Sur le même dashboard (de la RP2), ajouter un “textBox” qui permet d’envoyer un texte à afficher sur la matrice à leds de la RP1 via MQTT.
 
+Le fichier node-red correspond à la Raspberry Pi RP2.
 
 My ressources : 
   _ https://raspberrytips.fr/tutoriel-sense-hat/
