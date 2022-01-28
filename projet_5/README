@@ -1,0 +1,33 @@
+Projet 5: Buildroot 
+
+Les objectifs de ce projets sont:
+Test et compilation d’un OS linux avec buildroot 
+Développement d’une application avec node-red capable de lire des données BLE (Bluetooth Low Energy) et de les afficher à travers un dashboard node-red.
+L’Intégration de l’application développée dans Buildroot et produire une image OS pour la RP3
+
+Livrable:
+Lien Github contenant le code du projet 5 ainsi que l’image buildroot pour la RP3 et une documentation très brève sous forme de Readme en markdown.
+Comment faire un doc en markdown ? → https://www.makeareadme.com/
+
+Date limite:
+
+Les étapes:
+
+Télécharger une application ex: BLE Peripheral Simulator pour simuler un capteur BLE et mettre l’application en marche avec le mode advertisement en simulant un capteur  
+La RP3 dois récupérer les données BLE à travers Node-red et les afficher dans un Dashboard
+
+Explorer buildroot et produire une image d’un microlinux pour la RP3
+Mettre l’image dans le Repo Git 
+
+Cette partie est facultative:
+Intégrer l’application développée en Node-Red avec buildroot et produire une nouvelle image 
+Mettre l’image dans le Repo Git 
+
+Ressources:
+https://www.novelbits.io/bluetooth-low-energy-advertisements-part-1/
+https://www.linuxembedded.fr/2011/03/ajouter-un-package-dans-buildroot-en-5-minutes
+https://www.youtube.com/watch?v=oy5PtFhVk5E&t=180s
+https://www.youtube.com/watch?v=O9RHMKJqVTg&t=901s
+https://tewarid.github.io/2014/07/23/node.js-on-raspberry-pi-with-buildroot.html
+https://openclassrooms.com/fr/courses/5281406-creez-un-linux-embarque-pour-la-domotique
+
