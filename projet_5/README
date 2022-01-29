@@ -1,6 +1,9 @@
 Mon travail :
 
 Recherche de module node-red pour réaliser le projet : https://flows.nodered.org/node/node-red-contrib-generic-ble
+J'ai recontré de nombreuses difficultés avec le bluetooth. En effet l'application que j'ai utilisé sur mon smartphone perdait souvent la connexion avec la raspberry.
+Par ailleurs les nodes de (node-red-contrib-generic-ble) n'arrivaient pas a garder la connexion eux non plus. Je n'ai réussi à tranférer des données qu'une seule fois depuis
+l'application. J'ai continué mes recherchers sur interet et la plupart des solutions que j'ai trouvé sont aujourd'hui obselète.
 
 Projet 5: Buildroot 
 
